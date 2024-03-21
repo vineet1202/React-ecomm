@@ -1,0 +1,21 @@
+.cart-page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-item{
+    margin-top: 7em;
+}
+
+.cart-item > img{ 
+    height: 300px;
+}
+
+.fa-trash, .item-price{
+    font-size: 1.5em;
+}
+
+.fa-trash:hover{
+    color: red;
+    cursor: pointer;
+}

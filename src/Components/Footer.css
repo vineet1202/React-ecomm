@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  color: white;
+  justify-content: center;
+  height: 15rem;
+  text-align: center;
+}
+
+.footer-links > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.2rem;
+}

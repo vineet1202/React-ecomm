@@ -1,0 +1,71 @@
+.btns > button {
+  background-color: rgba(68, 68, 68, 1);
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  font-size: 1em;
+  transition: background-color;
+  margin-top: 1rem;
+}
+
+.btns > :hover {
+  background-color: #171717;
+  cursor: pointer;
+}
+
+.title-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trending h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 4.2rem;
+}
+
+.row-container {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  position: relative;
+  padding: 1rem 0.6rem;
+}
+/* important not optional */
+.row-container::-webkit-scrollbar {
+  display: none;
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.item-header img {
+  width: 12rem;
+}
+
+.row-item {
+  outline: 2px solid rgba(0, 0, 0, 0.205);
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+  padding: 0.5rem;
+}
+
+.row-item:hover {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.trending {
+  padding-bottom: 3rem;
+}
+
+.item-description {
+  font-size: 1.7rem;
+}
+
+.category-box {
+  padding: 25rem;
+}

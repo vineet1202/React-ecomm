@@ -1,0 +1,88 @@
+.body {
+  padding: 5rem;
+  margin-top: 5rem;
+}
+
+.btn-1 {
+  border: 2px solid black;
+  color: black;
+  font-size: 1em;
+  padding: 0.75em 2.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+
+.btn-1:hover {
+  color: white;
+  background: black;
+  cursor: pointer;
+}
+
+.btn-2 {
+  color: white;
+  background: brown;
+  font-size: 1.1em;
+  padding: 0.65em 3.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.btn-2:hover {
+  color: brown;
+  background: white;
+  cursor: pointer;
+}
+
+.detail {
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  width: 70vw;
+}
+
+.left-col > img {
+  height: 400px;
+  margin-top: 5em;
+}
+
+.right-col {
+  background: #f4f4f4;
+  padding: 3em 2em;
+  font-size: 1.2em;
+}
+
+.right-col p {
+  text-align: justify;
+  margin-top: 4rem;
+}
+
+.right-col > h1 {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  font-weight: 600;
+  font-size: 1.8em;
+}
+
+@media only screen and (max-width: 800px) {
+  .detail {
+    flex-direction: column;
+  }
+
+  .left-col > img {
+    height: 300px;
+    margin-top: 6rem;
+  }
+
+  .right-col > h1 {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+  }
+
+  .right-col {
+    padding: 1em;
+  }
+}
